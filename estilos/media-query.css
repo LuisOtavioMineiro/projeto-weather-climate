@@ -5,11 +5,12 @@
     .today-weather {
         bottom: 28%;
         left: 1%;
+        overflow: hidden;
     }
 }
 @media screen and (max-width : 768px) {
     .today-weather {
-        bottom: 25%;
+        bottom: 21%;
         left: 8%;
     }
 }
