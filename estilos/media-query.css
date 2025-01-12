@@ -12,5 +12,6 @@
     .today-weather {
         bottom: 21%;
         left: 8%;
+        overflow: hidden;
     }
 }
