@@ -2,13 +2,11 @@
     .left-info {
         width: 410px;
     }
-    html,body {
-        height: 100vh;
-        margin: 0;
-        padding: 0;
+    body {
+        height: 1%;
     }
     .today-weather {
-        bottom: 28%;
+        bottom: 58%;
         left: 1%;
         overflow: hidden;
     }
