@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    .left-info {
+        width: 410px;
+    }
+    .today-weather {
+        bottom: 28%;
+        left: 1%;
+    }
+}
