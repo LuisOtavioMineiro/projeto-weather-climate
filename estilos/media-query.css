@@ -9,7 +9,7 @@
 }
 @media screen and (max-width : 768px) {
     .today-weather {
-        bottom: 21%;
+        bottom: 25%;
         left: 8%;
     }
 }
