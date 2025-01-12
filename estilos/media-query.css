@@ -7,3 +7,9 @@
         left: 1%;
     }
 }
+@media screen and (max-width : 768px) {
+    .today-weather {
+        bottom: 21%;
+        left: 8%;
+    }
+}
