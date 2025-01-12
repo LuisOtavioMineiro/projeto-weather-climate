@@ -5,13 +5,13 @@
     .today-weather {
         bottom: 28%;
         left: 1%;
-        overflow: scroll;
+        overflow: hidden;
     }
 }
-@media screen and (max-width : 768px) {
-    }
-    .today-weather {
+@media screen and (min-width 768)  screen and (max-width: 992px) {
+    .today-weather{
         bottom: 21%;
         left: 15%;
-        overflow: scroll;
+        overflow: hidden;
     }
+}
