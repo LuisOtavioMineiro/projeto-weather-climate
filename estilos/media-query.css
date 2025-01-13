@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     .left-info {
-        width: 410px;
+        width: 400px;
     }
     .right-info {
         position: absolute;
@@ -11,16 +11,6 @@
         position: relative;
         top: 2%;
         right: 59%;
-    }  
-    .value1 {
-        position: absolute;
-       right: 20px;
-    }
-    .value2 {
-        display: inline-block;
-        position: relative;
-        left: 30%;
-    }
     }
     .days-list {
         position: absolute;
@@ -41,6 +31,7 @@
         left: 1%;
         overflow: hidden;
     }
+}
 @media screen and (min-width: 768px)  and (max-width: 992px) {
     .today-weather{
         bottom: 21%;
