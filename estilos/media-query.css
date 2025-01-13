@@ -18,6 +18,10 @@
         right: -55px;
         width: 450px;
     }
+    .txt {
+        position: relative;
+        top: -25px;
+    }
     body {
         height: 1%;
     }
