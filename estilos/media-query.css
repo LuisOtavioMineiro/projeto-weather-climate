@@ -2,27 +2,6 @@
     .left-info {
         width: 410px;
     }
-    .right-info {
-        position: absolute;
-        top: 49%;
-        left: 45%;
-    }
-    .day-info {
-        position: relative;
-        top: 2%;
-        right: 59%;
-    }
-    .days-list {
-        position: absolute;
-        display: flex;
-        right: 35px;
-    }
-    .btn-container {
-        position: absolute;
-        top: 39%;
-        right: 2%;
-        width: 200%;
-    }
     body {
         height: 1%;
     }
