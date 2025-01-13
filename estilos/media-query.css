@@ -4,6 +4,7 @@
     }
     .days-list {
         position: relative;
+        top: -155px;
         right: 5%;
     }
     .day-info {
