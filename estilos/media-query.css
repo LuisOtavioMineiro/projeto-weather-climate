@@ -2,6 +2,10 @@
     .left-info {
         width: 410px;
     }
+    .days-list {
+        position: relative;
+        right: 5%;
+    }
     body {
         height: 1%;
     }
