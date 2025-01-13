@@ -1,16 +1,16 @@
 @media screen and (max-width: 600px) {
     .left-info {
-        width: 410px;
+        width: 450px;
     }
     .days-list {
         position: relative;
-        top: -155px;
-        right: 5%;
+        top: -145px;
+        right: -40px;
     }
     .day-info {
         position: relative;
         top: -130px;
-        left: 9%;
+        left: 5%;
     }
     .btn-container {
         position: relative;
