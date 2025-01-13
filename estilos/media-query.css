@@ -9,7 +9,14 @@
     }
     .day-info {
         position: relative;
-        top: -155px;
+        top: -130px;
+        left: 9%;
+    }
+    .btn-container {
+        position: relative;
+        top: -160px;
+        right: -1px;
+        width: 450px;
     }
     body {
         height: 1%;
