@@ -6,6 +6,10 @@
         position: relative;
         right: 5%;
     }
+    .day-info {
+        position: relative;
+        top: -155px;
+    }
     body {
         height: 1%;
     }
