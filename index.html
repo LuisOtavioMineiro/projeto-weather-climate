@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,39 +10,83 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
+
 <body>
-    <div class="container">
-        <!-- Left Info Section -->
-        <div class="left-info">
-            <div class="pic-gradient"></div>
-            <div class="today-info">
-                <h2>Friday</h2>
-                <span>11 January 2025</span>
-                <div>
-                    <i class="bx bx-current-location"></i>
-                    <span>Brazil, SP</span>
+    <div class="container-main">
+        <div class="container">
+            <!-- Left Info Section -->
+            <div class="left-info">
+                <div class="pic-gradient"></div>
+                <div class="info-weather">
+                    <div class="today-info">
+                        <div>
+                            <h2 id="day">Friday</h2>
+                            <span id="date">11 January 2025</span>
+                            <div>
+                                <i class="bx bx-current-location"></i>
+                                <span id="city">Brazil, SP</span>
+                            </div>
+                        </div>
+                        </div>
+                    <!-- Weather Info Section -->
+                    <div class="today-weather">
+                        <i class="bx bx-sun"></i>
+                        <h1 class="weather-temp" id="weather-temp">25 °C</h1>
+                        <h3 class="txt" id="weather-type">Ensolarado</h3>
+                    </div>
+    
                 </div>
+    
             </div>
-        </div>
-
-        <!-- Weather Info Section -->
-        <div class="today-weather">
-            <i class="bx bx-sun"></i>
-            <h1 class="weather-temp">25 °C</h1>
-            <h3>Sunny</h3>
-        </div>
-
-        <!-- Right Info Section -->
-        <div class="right-info">
-            <div class="day-info">
-                <div>
-                    <span class="title">PRECIPITATION</span>
-                    <span class="value">4 %</span>
+    
+            <!-- Right Info Section -->
+            <div class="right-info">
+                <div class="day-info">
+                    <div>
+                        <span class="title">Chuva</span>
+                        <span class="value" id="rain">4 %</span>
+                    </div>
+                    <div>
+                        <span class="title">Umidade</span>
+                        <span class="value" id="humidity">34 %</span>
+                    </div>
+                    <div>
+                        <span class="title">Vento</span>
+                        <span class="value" id="velocity"> 6 km/h</span>
+                    </div>
                 </div>
-                <div>
-                    <span class="title">HUMIDITY</span>
-                    <span class="value">34 %</span>
+    
+                <!-- Days List Section -->
+                <ul class="days-list">
+                    <li>
+                        <i class="bx bx-cloud"></i>
+                        <span>Sat</span>
+                        <span class="day-temp">23 °C</span>
+                    </li>
+                    <li>
+                        <i class="bx bxs-sun"></i>
+                        <span>Sun</span>
+                        <span class="day-temp">28 °C</span>
+                    </li>
+                    <li>
+                        <i class="bx bx-cloud-rain"></i>
+                        <span>Mon</span>
+                        <span class="day-temp">2 °C</span>
+                    </li>
+                    <li>
+                        <i class="bx bx-cloud-drizzle"></i>
+                        <span>Tue</span>
+                        <span class="day-temp">14 °C</span>
+                    </li>
+                </ul>
+                <div class="btn-container">
+                    <div class="input-container">
+                        <input id="weather-location" type="text" placeholder="Digite a cidade"/>
+                        <ul id="resultsList"></ul>
+                    </div>
+                    <button class="loc-button" id="search-button">Buscar Localização</button>
                 </div>
+<<<<<<< HEAD
                 <div>
                     <span class="title">WIND SPEED</span>
                     <span class="value">6 km/h</span>
@@ -73,10 +118,13 @@
             </ul>
             <div class="btn-container">
                 <button class="loc-button">Search Location</button>
+=======
+>>>>>>> 76eb44e4a4dbaa27bddb14f304ff2a2219272b61
             </div>
         </div>
     </div>
 
-    
+
 </body>
+<script src="script.js"></script>
 </html>
