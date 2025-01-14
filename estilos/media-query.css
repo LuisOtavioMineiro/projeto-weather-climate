@@ -3,11 +3,15 @@
         flex-direction: column;
         height: auto;
     }
+    .today-weather {
+        margin: 1rem;
+
+    }
     .left-info {
         width: 100%;
     }
     .days-list {
-        padding: 1rem 1.5rem;
+        padding: 1rem 1.1rem;
         margin: 0 20px;
     }
     .day-info {
