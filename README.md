@@ -1,9 +1,9 @@
-Weather Project
+**Weather Project**
 
 This project was developed to display weather information for a specific location. It is a simple and practical application that uses weather APIs to provide up-to-date data, such as temperature, weather conditions, and more.
 
 
-Features
+**Features**
 
 
 .Display of current temperature.
@@ -17,7 +17,7 @@ Features
 
 
 
-Technologies Used
+**Technologies Used**
 
 .Weather API: To fetch weather data (https://openweathermap.org/)
 
@@ -26,6 +26,6 @@ Technologies Used
 
 
 
-Authors
+**Authors**
 - Your Name- Luis Otavio Mineiro -([github] https://github.com/LuisOtavioMineiro?tab=repositories))
 - Collaborator's Name - BrunoSapalacio-([GitHub] https://github.com/BrunoSapalacio))
