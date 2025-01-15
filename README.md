@@ -7,14 +7,21 @@ Features
 
 
 .Display of current temperature.
+
+
 .Information about weather conditions (sunny, cloudy, rainy, etc.).
+
+
 .Ability to search for weather in different cities.
 
 
 
 
 Technologies Used
+
 .Weather API: To fetch weather data (https://openweathermap.org/)
+
+
 .HTML, CSS, and JavaScript: For the front end.
 
 
