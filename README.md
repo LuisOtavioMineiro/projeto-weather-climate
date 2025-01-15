@@ -24,6 +24,9 @@ Tecnologias Utilizadas
 Autores
 Luis Otavio Mineiro - Desenvolvedor([GitHub](https://github.com/LuisOtavioMineiro))
 .Bruno Sapalacio.   - Desenvolvedo ([- https://github.com/BrunoSapalacio))
+
+
+
 Weather Project
 This project was developed to display weather information for a specific location. It is a simple and practical application that uses weather APIs to provide up-to-date data, such as temperature, weather conditions, and more.
 
