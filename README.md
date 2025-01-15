@@ -4,6 +4,8 @@ This project was developed to display weather information for a specific locatio
 
 
 Features
+
+
 .Display of current temperature.
 .Information about weather conditions (sunny, cloudy, rainy, etc.).
 .Ability to search for weather in different cities.
