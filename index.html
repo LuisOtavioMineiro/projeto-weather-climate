@@ -30,7 +30,7 @@
                         </div>
                     <!-- Weather Info Section -->
                     <div class="today-weather">
-                        <i class="bx bx-sun"></i>
+                        <i class="bx bx-sun" id="weather-0"></i>
                         <h1 class="weather-temp" id="weather-temp">25 °C</h1>
                         <h3 class="txt" id="weather-type">Ensolarado</h3>
                     </div>
@@ -59,24 +59,24 @@
                 <!-- Days List Section -->
                 <ul class="days-list">
                     <li>
-                        <i class="bx bx-cloud"></i>
-                        <span>Terça-Feira</span>
-                        <span class="day-temp">23 °C</span>
+                        <i class="bx bx-cloud" id="weather-1"></i>
+                        <span id="day-1">Terça-Feira</span>
+                        <span class="day-temp" id="temp-1">23 °C</span>
                     </li>
                     <li>
-                        <i class="bx bxs-sun"></i>
-                        <span>Quarta-Feira</span>
-                        <span class="day-temp">28 °C</span>
+                        <i class="bx bxs-sun" id="weather-2"></i>
+                        <span id="day-2">Quarta-Feira</span>
+                        <span class="day-temp" id="temp-2">28 °C</span>
                     </li>
                     <li>
-                        <i class="bx bx-cloud-rain"></i>
-                        <span>Quinta-Feira</span>
-                        <span class="day-temp">2 °C</span>
+                        <i class="bx bx-cloud-rain" id="weather-3"></i>
+                        <span id="day-3">Quinta-Feira</span>
+                        <span class="day-temp" id="temp-3">2 °C</span>
                     </li>
                     <li>
-                        <i class="bx bx-cloud-drizzle"></i>
-                        <span>Sexta-Feira</span>
-                        <span class="day-temp">14 °C</span>
+                        <i class="bx bx-cloud-drizzle" id="weather-4"></i>
+                        <span id="day-4">Sexta-Feira</span>
+                        <span class="day-temp" id="temp-4">14 °C</span>
                     </li>
                 </ul>
                 <div class="btn-container">
@@ -84,7 +84,7 @@
                         <input id="weather-location" type="text" placeholder="Digite a cidade"/>
                         <ul id="resultsList"></ul>
                     </div>
-                    <button class="loc-button" id="search-button">Buscar Localização</button>
+                    <button class="loc-button" id="search-button">Obter Informações</button>
                 </div>
             </div>
         </div>

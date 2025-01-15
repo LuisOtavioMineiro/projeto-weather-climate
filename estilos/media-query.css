@@ -2,6 +2,7 @@
     .container {
         flex-direction: column;
         height: auto;
+        margin: 0;
     }
     .today-weather {
         margin: 1rem;
@@ -11,8 +12,10 @@
         width: 100%;
     }
     .days-list {
-        padding: 1rem 1.1rem;
         margin: 0 20px;
+    }
+    .days-list li {
+        padding: 10px;
     }
     .day-info {
         padding: 1rem 1.7rem;
@@ -30,7 +33,6 @@
         gap: 2rem;
     }
     
-
     .today-info {
         align-items: flex-end;
     }
